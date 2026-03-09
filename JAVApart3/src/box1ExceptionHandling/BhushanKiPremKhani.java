@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class BhushanKiPremKhani {
 	public static void main(String[] args) {
+		System.out.println("main  start");
 		System.out.println("Bhiwandi");
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter 1st Number :-");
