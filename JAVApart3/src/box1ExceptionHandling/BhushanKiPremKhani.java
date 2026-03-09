@@ -14,7 +14,7 @@ public class BhushanKiPremKhani {
 
 		try {
 			System.out.println(n1 / n2);
-		} catch (ArithmeticException a1) {
+		} catch (ArithmeticException a) {
 			System.out.println("Gadhe zero se divide mat kar");
 		}
 
