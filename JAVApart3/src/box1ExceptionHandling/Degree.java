@@ -7,6 +7,7 @@ public class Degree {
 		if (marks > 35) {
 			System.out.println("Bhai tu pass hogya...");
 		} else {
+
 			throw new Z2Exception();
 		}
 	}
