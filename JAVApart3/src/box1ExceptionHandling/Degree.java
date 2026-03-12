@@ -21,9 +21,10 @@ public class Degree {
 			pass(marks);
 		} catch (Z2Exception z1) {
 			System.out.println("Fail hai tu....");
-			sc.close();
+
 		} finally {
 			System.out.println("All The Best...");
+			sc.close();
 		}
 		System.out.println("Code End");
 	}
