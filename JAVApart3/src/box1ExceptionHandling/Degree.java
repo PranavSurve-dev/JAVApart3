@@ -3,8 +3,8 @@ package box1ExceptionHandling;
 import java.util.Scanner;
 
 public class Degree {
-	public static void pass(int marks) throws Z2Exception {
-		if (marks > 35) {
+	public static void pass(int percentage) throws Z2Exception {
+		if (percentage > 35) {
 			System.out.println("Bhai tu pass hogya...");
 		} else {
 
@@ -14,7 +14,7 @@ public class Degree {
 
 	public static void Driver(int age) throws Z2Exception {
 		if (age > 21) {
-			System.out.println(" You Are Eligible So Drive Safe......");
+			System.out.println("You Are Eligible So Drive Safe......");
 		} else {
 			throw new Z2Exception();
 		}
@@ -23,8 +23,8 @@ public class Degree {
 	public static void main(String[] args) {
 		System.out.println("Code Start");
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter your Marks");
-		int marks = sc.nextInt();
+		System.out.println("Enter your percentage");
+		int percentage = sc.nextInt();
 		System.out.println("Enter your age");
 		int age = sc.nextInt();
 		try {
@@ -33,7 +33,7 @@ public class Degree {
 			System.out.println("Still u are not Eligible...");
 		}
 		try {
-			pass(marks);
+			pass(percentage);
 		} catch (Z2Exception z1) {
 			System.out.println("Fail hai tu....");
 
