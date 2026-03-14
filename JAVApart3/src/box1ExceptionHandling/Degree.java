@@ -12,9 +12,9 @@ public class Degree {
 		}
 	}
 
-	public static void car(int age) throws Z2Exception {
+	public static void Driver(int age) throws Z2Exception {
 		if (age > 21) {
-			System.out.println("now u can drive me......");
+			System.out.println(" You Are Eligible So Drive Safe......");
 		} else {
 			throw new Z2Exception();
 		}
@@ -28,9 +28,9 @@ public class Degree {
 		System.out.println("Enter your age");
 		int age = sc.nextInt();
 		try {
-			car(age);
+			Driver(age);
 		} catch (Z2Exception z2) {
-			System.out.println("wait for some time...");
+			System.out.println("Still u are not Eligible...");
 		}
 		try {
 			pass(marks);
