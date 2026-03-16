@@ -1,4 +1,4 @@
-package box1ExceptionHandling;
+package box2JavaObjectClass;
 
 //1 Before Overriding toString()
 class VandeBharat {
