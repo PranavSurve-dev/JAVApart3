@@ -8,6 +8,12 @@ class Nano {
 	public Nano(int speed) {
 		this.speed = speed;
 	}
+
+	@Override // Object obj = new Nano(120); //Upcasting
+	public boolean equals(Object obj) {
+		Nano m = (Nano) obj;// Downcasting
+		return this.speed == m.speed;
+	}
 }
 
 public class Industry {
@@ -16,7 +22,7 @@ public class Industry {
 		Nano n2 = new Nano(140);
 		System.out.println(n1.equals(n2));// false
 
-		// By Default .equals() compres address of an Object
+		// By Default .equals() compress address of an Object
 		// We have to Override to compare Data
 
 		System.out.println("---------------------");
