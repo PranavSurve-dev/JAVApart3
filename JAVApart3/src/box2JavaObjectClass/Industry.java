@@ -18,9 +18,11 @@ class Nano {
 
 public class Industry {
 	public static void main(String[] args) {
-		Nano n1 = new Nano(140);
-		Nano n2 = new Nano(140);
+		Nano n1 = new Nano(120);
+		Nano n2 = new Nano(120);
 		System.out.println(n1.equals(n2));// false
+		System.out.println(n1);
+		System.out.println(n2);
 
 		// By Default .equals() compress address of an Object
 		// We have to Override to compare Data
