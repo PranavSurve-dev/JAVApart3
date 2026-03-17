@@ -7,7 +7,7 @@ class BMW {
 
 	@Override
 	public int hashCode() {
-		return num++;
+		return ++num;
 	}
 }
 
