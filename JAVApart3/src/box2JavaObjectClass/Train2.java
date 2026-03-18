@@ -1,7 +1,7 @@
 package box2JavaObjectClass;
 
-//1 After Overriding toString()
-//After Overriding toString() it gives the Data
+//2 After Overriding toString()
+// After Overriding toString() it gives the Data
 class VandeBharat2 {
 	String color;
 	int price;
