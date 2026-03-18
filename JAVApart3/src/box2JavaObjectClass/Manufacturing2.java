@@ -1,6 +1,7 @@
-
 package box2JavaObjectClass;
-//1 Before Overriding hashcode()
+
+//1 After Overriding hashcode()
+//After Overriding hashcode() it give data(whatever we pass)
 
 class BMW2 {
 
