@@ -20,5 +20,9 @@ public class Traditional {
 		sb.append("Srivalli");
 		System.out.println(sb);
 		System.out.println("--------------");
+		// Mutable
+		StringBuilder ss = new StringBuilder("Surve");
+		ss.append(" The Great");
+		System.out.println(ss);
 	}
 }
