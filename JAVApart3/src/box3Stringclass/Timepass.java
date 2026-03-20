@@ -27,10 +27,14 @@ public class Timepass {
 		System.out.println("--------------------");
 		System.out.println(str.startsWith("So"));// true
 		System.out.println(str.endsWith("er"));// true
-		System.out.println();
-		System.out.println();
-		System.out.println();
-		System.out.println();
+		System.out.println("--------------------");
+		String s1 = "Pranav";
+		String s2 = "Ritesh";
+		String s3 = "Pranav";
+		System.out.println(s1.equals(s2));// false
+		System.out.println("Pranav".equals("Pranav"));// true
+		System.out.println("DAD".equalsIgnoreCase("dad"));// true
+		System.out.println("MahaRashtra".equalsIgnoreCase("MAHARASHTRA"));// true
 		System.out.println();
 		System.out.println();
 	}
