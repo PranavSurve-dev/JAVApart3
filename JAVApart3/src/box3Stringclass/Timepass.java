@@ -17,8 +17,10 @@ public class Timepass {
 		System.out.println(str.charAt(7));// e
 		System.out.println(str.charAt(3));// t
 		System.out.println("-------------------");
-		System.out.println();
-		System.out.println();
+		System.out.println(str.substring(5));// re Engineer
+		System.out.println(str.substring(11));// ware Engineer
+		System.out.println(str.substring(3, 17));// tware Engineer
+		System.out.println("-------------------");
 		System.out.println();
 		System.out.println();
 		System.out.println();
