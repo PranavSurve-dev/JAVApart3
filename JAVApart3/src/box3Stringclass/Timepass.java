@@ -35,7 +35,7 @@ public class Timepass {
 		System.out.println("Pranav".equals("Pranav"));// true
 		System.out.println("DAD".equalsIgnoreCase("dad"));// true
 		System.out.println("MahaRashtra".equalsIgnoreCase("MAHARASHTRA"));// true
-		System.out.println();
-		System.out.println();
+		System.out.println(str.isEmpty());// false
+		System.out.println(s2.isEmpty());// false
 	}
 }
