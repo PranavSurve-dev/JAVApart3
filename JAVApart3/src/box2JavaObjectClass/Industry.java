@@ -1,7 +1,7 @@
 package box2JavaObjectClass;
 
 //1 Before Overriding .equals()
-//Before Overriding .equals() it gives Object Address
+//Before Overriding .equals() it gives Check Address
 class Nano {
 	int speed;
 
@@ -20,7 +20,7 @@ public class Industry {
 		System.out.println(n1);
 		System.out.println(n2);
 
-		// By Default .equals() compress address of an Object
+		// By Default .equals() Compare address of an Object
 		// We have to Override to compare Data
 
 		System.out.println("---------------------");

@@ -19,7 +19,7 @@ public class Traditional {
 		StringBuffer sb = new StringBuffer("Pushparaj");
 		sb.append("Srivalli");
 		System.out.println(sb);
-		System.out.println("--------------");
+		System.out.println("-------------");
 		// Mutable
 		StringBuilder ss = new StringBuilder("Surve");
 		ss.append(" The Great");
