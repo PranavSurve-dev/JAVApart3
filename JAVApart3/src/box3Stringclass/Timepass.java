@@ -13,6 +13,13 @@ public class Timepass {
 		System.out.println(str.lastIndexOf('e'));// 15
 		System.out.println(str.indexOf('e', 8));// 14
 		System.out.println("-------------------");
+		System.out.println(str.charAt(10));// n
+		System.out.println(str.charAt(7));// e
+		System.out.println(str.charAt(3));// t
+		System.out.println("-------------------");
+		System.out.println();
+		System.out.println();
+		System.out.println();
 		System.out.println();
 		System.out.println();
 		System.out.println();
