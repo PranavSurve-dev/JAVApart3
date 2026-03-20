@@ -21,6 +21,13 @@ public class Timepass {
 		System.out.println(str.substring(11));// ware Engineer
 		System.out.println(str.substring(3, 17));// tware Engineer
 		System.out.println("-------------------");
+		System.out.println(str.contains("ee"));// true
+		System.out.println(str.contains("waree"));// false
+		System.out.println(str.contains("Engi"));// true
+		System.out.println("--------------------");
+		System.out.println(str.startsWith("So"));// true
+		System.out.println(str.endsWith("er"));// true
+		System.out.println();
 		System.out.println();
 		System.out.println();
 		System.out.println();
