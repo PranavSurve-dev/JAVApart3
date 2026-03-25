@@ -17,5 +17,10 @@ public class Ferrari {
 		a1.set(0, "Surve");
 		System.out.println(a1);// Overriding the Existing data
 		// [Surve, Pranav, Bhushan, Jay, Prasad]
+		System.out.println("-----------------");
+		// for each loop advance for loop
+		for (String s : a1) {
+			System.out.println(s);
+		}
 	}
 }
