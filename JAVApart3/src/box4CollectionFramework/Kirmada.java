@@ -28,7 +28,7 @@ public class Kirmada {
 		a1.remove("Sahil");
 		a1.remove(55.78);
 		System.out.println(a1);
-//[500, true, Pranav, Saras, Siddhant, Sahil]
+		// [500, true, Pranav, Saras, Siddhant, Sahil]
 
 		System.out.println(a1.containsAll(v1));// false
 		a1.removeAll(v1);
