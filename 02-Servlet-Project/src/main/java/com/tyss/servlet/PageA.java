@@ -15,12 +15,8 @@ public class PageA extends GenericServlet {
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 		System.out.println("welcome to servlet PageA");
-		
+
 		PrintWriter pw = res.getWriter();
-		pw.print("<html>"
-				+ "<body>"
-				+ "<h1>Welcome to PageA Servlet</h1>"
-				+ "</body>"
-				+ "</html>");
+		pw.print("<html>" + "<body>" + "<h1>Welcome to PageA Servlet</h1>" + "</body>" + "</html>");
 	}
 }

@@ -13,12 +13,8 @@ public class MyServlet extends GenericServlet {
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 		System.out.println("Welcome to MyServlet");
-		
+
 		PrintWriter pw = res.getWriter();
-		pw.print("<html>"
-				+ "<body>"
-				+ "<h1>Welcome to MyServlet</h1>"
-				+ "</body>"
-				+ "</html>");
+		pw.print("<html>" + "<body>" + "<h1>Welcome to MyServlet</h1>" + "</body>" + "</html>");
 	}
 }
