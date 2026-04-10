@@ -1,4 +1,3 @@
-
 <html>
 <body>
 	<h2>Enter User Details</h2>
