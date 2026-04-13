@@ -1,6 +1,7 @@
 package com.tyss.servlet;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.GenericServlet;
 import javax.servlet.ServletException;
@@ -24,6 +25,10 @@ public class ReadUserData extends GenericServlet {
 		System.out.println(email);
 		System.out.println(phone);
 		System.out.println(pwd);
+
+		PrintWriter pw = res.getWriter();
+		pw.print("<html>" + "<body>" + "<h1>Welcome," + name + " to the Servlet</h1>"
+				+ "<h2>You account is register with email : " + email + "</h2>" + "</body>" + "</html>");
 
 	}
 
